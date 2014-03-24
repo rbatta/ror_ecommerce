@@ -167,7 +167,6 @@ GEM
       i18n (~> 0.6.4)
       monetize (~> 0.1.3)
     multi_json (1.8.4)
-    mysql2 (0.3.15)
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (2.7.0)
@@ -208,13 +207,8 @@ GEM
       ruby-graphviz (~> 1.0.4)
     rails3-generators (1.0.0)
       railties (>= 3.0.0)
-    rails_12factor (0.0.2)
-      rails_serve_static_assets
-      rails_stdout_logging
     rails_config (0.3.3)
       activesupport (>= 3.0)
-    rails_serve_static_assets (0.0.2)
-    rails_stdout_logging (0.0.3)
     railties (4.0.2)
       actionpack (= 4.0.2)
       activesupport (= 4.0.2)
@@ -316,7 +310,6 @@ DEPENDENCIES
   json (~> 1.8.0)
   launchy
   mocha (~> 0.13.3)
-  mysql2 (~> 0.3.12)
   nokogiri (~> 1.6.0)
   paperclip (~> 3.0)
   pg
@@ -325,7 +318,6 @@ DEPENDENCIES
   rails (= 4.0.2)
   rails-erd
   rails3-generators (~> 1.0.0)
-  rails_12factor
   rails_config
   rake (~> 10.1)
   rmagick
